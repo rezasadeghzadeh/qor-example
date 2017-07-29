@@ -1,0 +1,75 @@
+fa-IR:
+  layout:
+    connect: 'اتصال'
+    about_qor: '<p>QOR یک محصول متن باز است که توسط <a href="https://theplant.jp/">The Plant</a> ارایه شده است. این محصول تحت لایسنس MIT می باشد. </p> <p>نام QOR برای <a href="https://theplant.jp/">The Plant</a>   محفوظ می باشد </p>'
+    support_and_info: 'اطلاعات و پشتیبانی'
+    header_link:
+      apparel: 'پوشاک'
+      stationery: 'لوازم التحریر'
+      accessories: 'تجهیزات جانبی'
+      help: 'راهنمایی'
+      sign_in: 'ورود'
+      cart: 'سبد خرید'
+      logout: "خروج از سیستم"
+      my_account: "حساب من"
+    footer_link:
+      faq: 'سوالات متداول'
+      size_guide: 'راهنمای اندازه ها'
+      shipping: 'حمل و نقل'
+      privacy_policy: 'سیاست حفظ حریم خصوصی'
+      terms_of_use: 'شرایط استفاده'
+      press: 'مطبوعات'
+      about_us: 'درباره ما'
+      blog: 'وبلاگ'
+  home:
+    feature_product:
+      title: "محصولات ویژه"
+      subtitle: "مقادیر روزانه ی QOR شما توسط <a href=\"https://theplant.jp/\"> آورده شده است."
+    goodness:
+      title: "مزیت های بیشتر QOR"
+      subtitle: "اگر شما نمی توانید به اندازه کافی دریافت کنید..."
+      find_a_store: "یک مغازه پیدا کن"
+      get_newsletter: "دریافت خبر نامه ی ما"
+      get_newsletter_info: "اولین نفری باشید که اطلاعات محصولات جدید را دریافت میکنید. خبر نامه ماهانه مقادیر منحصر بفرد و تخفیفات را برای شما ارسال می کند."
+  product:
+    color: "رنگ:"
+    size: "اندازه:"
+    size_guide: "راهنمای اندازه"
+    quantity: "تعداد:"
+    add_to_cart: "افزودن به سبد خرید"
+    add_to_wishlist: "افزودن به لیست علاقه مندی ها"
+    share: "اشتراک:"
+    description: "توضیحات:"
+    specs: "مشخصات:"
+    made_in: "ساخته شده در:"
+    materials: "مواد:"
+    framistan: "Framistan:"
+    recommendations: "پیشنهادات"
+    recommendations_note: "محصولاتی که ممکن است بر اساس محصولات دیگری که مشاهده کرده اید نیز دوست داشته باشید"
+    also_bought: "دیگر خریداران چه می گویند"
+    also_bought_note: "افرادی که این محصولات را خریداری کردند نیز محصولات زیر را خریداری کردند"
+  login:
+    email: "ایمیل:"
+    password: "رمز عبور:"
+    remember_me: "یادآوری"
+    forget_password: "فراموشی رمز عبور"
+    button: "ورود"
+    register: "ثبت نام"
+  register:
+    email: "ایمیل:"
+    name: "نام:"
+    password: "رمز عبور:"
+    confirm_password: "تایید رمز عبور"
+    button: "ثبت نام"
+  recover:
+    email: "ایمیل:"
+    confirm_email: "تایید ایمیل:"
+    button: "بازیابی"
+  recover_complete:
+    new_password: "رمز عبور جدید:"
+    confirm_new_password: "تایید رمز عبور جدید:"
+    button: "بازیابی"
+  qor_action_bar:
+    action:
+      logged_as: " سلام {{.DisplayName}}"
+

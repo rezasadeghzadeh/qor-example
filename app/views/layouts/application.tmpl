@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="all" href="/dist/qor.css">
     <script src="/vendors/jquery.js"></script>
   </head>
-  <body>
+  <body  {{ if (eq current_locale "fa-IR") }}style="direction: rtl;"{{end}} >
     {{render_action_bar}}
 
     <p class="clearfix"></p>
@@ -90,16 +90,17 @@
               <a href="#"><img src="/images/youtube.png" /></a>
             </div>
 
-            {{ t "layout.about_qor" }}
-
             <!-- Switch language -->
             <div class="footer__change-language">
               <select>
                 <option {{ if (eq current_locale "en-US") }}selected{{end}} value="/switch_locale?locale=en-US">English</option>
                 <option {{ if (eq current_locale "zh-CN") }}selected{{end}} value="/switch_locale?locale=zh-CN">简体中文</option>
+                <option {{ if (eq current_locale "fa-IR") }}selected{{end}} value="/switch_locale?locale=fa-IR">فارسی</option>
               </select>
             </div>
           </div>
+
+            {{ t "layout.about_qor" }}
 
           <div class="grid__col is-4">
             <h4>{{ t "layout.support_and_info" }}</h4>

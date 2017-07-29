@@ -57,7 +57,7 @@ func Router() *http.ServeMux {
 		})
 
 		router.Route("/cart", func(r chi.Router) {
-			// r.Get("/", controllers.ShowCartHandler)
+			//r.Get("/", controllers.ShowCartHandler)
 			// r.Get("/checkout", controllers.CheckoutCartHandler)
 			// r.Post("/", controllers.AddToCartHandler)
 			// r.Post("/checkout", controllers.OrderCartHandler)
